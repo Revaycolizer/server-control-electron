@@ -24,7 +24,7 @@ This boilerplate demonstrates a turborepo setup combining Next.js with Electron,
      "build": {
        "asar": true,
        "executableName": "NextJSElectron",
-       "appId": "com.saybackend.nextjs-electron",
+       "appId": "com.revaycolizer.nextjs-electron",
        "asarUnpack": [
          "node_modules/next",
          "node_modules/@img",
