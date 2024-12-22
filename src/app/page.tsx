@@ -1,15 +1,13 @@
-import { CounterClientComponent } from "@/components/ClientComponent";
-import { ElectronCheck } from "@/components/ElectronCheck";
-import { ServerPokemonComponent } from "@/components/ServerComponent";
-
-export default function Home() {
+import React from 'react'
+import AppLayout from '../components/AppLayout'
+import ServiceApp from '../components/ServiceApp'
+export const revalidate=0;
+const Home = () => {
   return (
-    <main className="flex min-h-screen items-center justify-around p-24 flex-row">
-      <ElectronCheck />
-
-      <ServerPokemonComponent />
-
-      <CounterClientComponent />
-    </main>
-  );
+    <AppLayout>
+      <ServiceApp />
+    </AppLayout>
+  )
 }
+
+export default Home
